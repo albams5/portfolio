@@ -35,7 +35,7 @@ export const Hero = () => {
                 <img src={linkedinIcon} alt="Linkedin Icon" />
                 </a>
             </span>
-            <p> I am excited to explore new opportunities and contribute to the development of innovative projects in the software development world.</p>
+            <p className={styles.description}> I am excited to explore new opportunities and contribute to the development of innovative projects in the software development world.</p>
             <a href={CV} download="Alba_Resume.pdf">
                 <button className="hover">Resume</button>
             </a>
