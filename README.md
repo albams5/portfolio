@@ -48,5 +48,5 @@ pnpm run dev
 
 ## 💻Deployment
 
-This project is already deployed in Netlify: 
+This project is already deployed in Netlify: https://alba-martin.netlify.app/
 
