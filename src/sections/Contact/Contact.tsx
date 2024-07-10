@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <section id="contact" className={styles.container}>
         <h2 className="sectionTitle">Contact</h2>
-        <form action="">
+        <form action="https://formspree.io/f/xjkbkbal" method="post">
             <div className="formGroup">
                 <label htmlFor="name" hidden>
                     Name
