@@ -8,14 +8,15 @@ type Props = {
 };
 export const ProjectCard = ({ src, link, h3, p, deploy, comment }: Props) => {
   return (
-    <a href={link} target="_blank">
-      <img className="hover" src={src} alt={`${h3} logo`} />
+    <section>
+      <img src={src} alt={`${h3} logo`} />
       <h3>{h3}</h3>
       <p>{p}</p>
+      <button><a href={link} target="_blank">Github</a></button>
       {deploy && (
-          <a href={deploy} target="_blank"><p>Deployed Project</p></a>
+          <button><a href={deploy} target="_blank">Deployed Project</a></button>
       )}
       <p style={{ fontSize: '12px' }}>{comment && comment}</p>
-    </a>
+    </section>
   );
 };
