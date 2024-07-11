@@ -31,7 +31,7 @@ export const Projects = () => {
           link="https://github.com/aoteron/Vibesync"
           h3="Vibesync"
           p="Music streaming App"
-          deploy=""
+          deploy="https://vibesyncfrontproduction.vercel.app/"
         />
         <ProjectCard
           src={calendar}
