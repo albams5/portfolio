@@ -32,6 +32,7 @@ export const Projects = () => {
           h3="Vibesync"
           p="Music streaming App"
           deploy="https://vibesyncfrontproduction.vercel.app/"
+          comment="User: alba@hotmail.com; password: 123456K*"
         />
         <ProjectCard
           src={calendar}
