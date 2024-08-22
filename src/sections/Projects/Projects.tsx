@@ -5,6 +5,7 @@ import mobee from '../../assets/mobee.png'
 import vibesync from '../../assets/vibesync.png'
 import calendar from '../../assets/calendar.png'
 import rick from '../../assets/rick.png'
+import poison from '../../assets/poison.png'
 
 export const Projects = () => {
   return (
@@ -47,6 +48,13 @@ export const Projects = () => {
           h3="Rick & Morty Frikipedia"
           p="All you need to know about your fav show"
           deploy="https://rick-and-morty-individual-project.vercel.app/"
+        />
+        <ProjectCard
+          src={poison}
+          link="https://github.com/albams5/poison"
+          h3="Poison Landing Page"
+          p="Welcome to the Poison landing page project!"
+          deploy="https://poison-seven.vercel.app/"
         />
       </div>
     </section>
